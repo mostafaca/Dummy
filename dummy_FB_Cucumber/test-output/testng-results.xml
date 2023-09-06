@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-04T00:10:38Z" name="Suite" finished-at="2023-09-04T00:10:48Z" duration-ms="10195">
+    <groups>
+    </groups>
+    <test started-at="2023-09-04T00:10:38Z" name="Test" finished-at="2023-09-04T00:10:48Z" duration-ms="10195">
+      <class name="test.loginpageTest">
+        <test-method is-config="true" signature="driverSetup()[pri:0, instance:test.loginpageTest@14fc5f04]" started-at="2023-09-03T20:10:36Z" name="driverSetup" finished-at="2023-09-03T20:10:38Z" duration-ms="2187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetup -->
+        <test-method signature="lptest()[pri:0, instance:test.loginpageTest@14fc5f04]" started-at="2023-09-03T20:10:38Z" name="lptest" finished-at="2023-09-03T20:10:38Z" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lptest -->
+      </class> <!-- test.loginpageTest -->
+      <class name="test.incorrectpageTest">
+        <test-method signature="icmtest()[pri:0, instance:test.incorrectpageTest@6e2829c7]" started-at="2023-09-03T20:10:38Z" name="icmtest" finished-at="2023-09-03T20:10:48Z" duration-ms="10035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- icmtest -->
+      </class> <!-- test.incorrectpageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
